@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<!-- saved from url=(0117)file:///C:/Users/Brent/Downloads/Brent's%20Calisthenics%20Athletic%20System.html%20%20claude%20workout%20routine.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brent's Calisthenics Athletic System</title>
+<link href="./ACTUAL WORKOUT ROUTINE_files/css2" rel="stylesheet">
+<style>
+  :root {
+    --black: #0f0f0f;
+    --white: #fafafa;
+    --purple: #4a3aff;
+    --purple-light: #ede9ff;
+    --purple-dark: #2a1fa8;
+    --blue: #1a6bff;
+    --blue-light: #e3eeff;
+    --blue-dark: #0d3d99;
+    --coral: #e8420a;
+    --coral-light: #fdeae4;
+    --coral-dark: #8a2006;
+    --green: #1a7a3f;
+    --green-light: #e2f5eb;
+    --green-dark: #0d4a25;
+    --amber: #c97a00;
+    --amber-light: #fff4d6;
+    --amber-dark: #7a4a00;
+    --gray: #888;
+    --gray-light: #f2f2f2;
+    --border: #e0e0e0;
+    --text: #111;
+    --text-muted: #555;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: #fff;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  @media print {
+    body { font-size: 11px; }
+    .page { page-break-after: always; padding: 18mm 16mm; }
+    .page:last-child { page-break-after: avoid; }
+    .no-print { display: none; }
+    @page { margin: 0; size: A4; }
+  }
+
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 18mm;
+    min-height: 297mm;
+    background: white;
+    position: relative;
+  }
+
+  /* Print button */
+  .print-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: var(--black);
+    color: white;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: .5px;
+  }
+  .print-bar button {
+    background: var(--purple);
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .print-bar button:hover { background: var(--purple-dark); }
+
+  @media print { .print-bar { display: none; } }
+  body { padding-top: 48px; }
+  @media print { body { padding-top: 0; } }
+
+  /* Page header */
+  .page-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 2.5px solid var(--black);
+  }
+  .page-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+  .page-title span { color: var(--purple); }
+  .page-subtitle {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 3px;
+    font-weight: 500;
+  }
+  .day-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .badge-hard { background: var(--coral-light); color: var(--coral-dark); border: 1.5px solid var(--coral); }
+  .badge-easy { background: var(--blue-light); color: var(--blue-dark); border: 1.5px solid var(--blue); }
+  .badge-rest { background: var(--gray-light); color: #444; border: 1.5px solid #bbb; }
+
+  /* Section blocks */
+  .section {
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .section-header {
+    background: var(--black);
+    color: white;
+    padding: 6px 12px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-header.purple { background: var(--purple); }
+  .section-header.blue { background: var(--blue); }
+  .section-header.coral { background: var(--coral); }
+  .section-header.green { background: var(--green); }
+  .section-header.amber { background: var(--amber); }
+  .section-header span { font-weight: 400; font-size: 11px; opacity: .85; }
+  .section-body { padding: 10px 12px; }
+
+  /* Grids */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; }
+  .grid-5 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 8px; }
+  .grid-7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+
+  /* Cards */
+  .card {
+    background: var(--gray-light);
+    border-radius: 5px;
+    padding: 8px 10px;
+  }
+  .card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    margin-bottom: 2px;
+  }
+  .card-value {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .card-note { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+
+  .card.purple { background: var(--purple-light); }
+  .card.purple .card-title { color: var(--purple-dark); }
+  .card.purple .card-value { color: var(--purple); }
+  .card.blue { background: var(--blue-light); }
+  .card.blue .card-title { color: var(--blue-dark); }
+  .card.blue .card-value { color: var(--blue); }
+  .card.coral { background: var(--coral-light); }
+  .card.coral .card-title { color: var(--coral-dark); }
+  .card.coral .card-value { color: var(--coral); }
+  .card.green { background: var(--green-light); }
+  .card.green .card-title { color: var(--green-dark); }
+  .card.green .card-value { color: var(--green); }
+  .card.amber { background: var(--amber-light); }
+  .card.amber .card-title { color: var(--amber-dark); }
+  .card.amber .card-value { color: var(--amber); }
+
+  /* Checklist */
+  .checklist { list-style: none; }
+  .checklist li {
+    padding: 3px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    font-size: 12px;
+    color: var(--text);
+    border-bottom: 1px dashed var(--border);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist .box {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    border: 1.5px solid #bbb;
+    border-radius: 2px;
+    margin-top: 1px;
+    display: inline-block;
+  }
+
+  /* Inline checklist */
+  .check-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 12px;
+  }
+  .check-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 0;
+  }
+  .check-item .box {
+    width: 13px; height: 13px; min-width: 13px;
+    border: 1.5px solid #bbb;
+    border-radius: 2px;
+  }
+
+  /* Exercise block */
+  .exercise-block {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 8px 10px;
+  }
+  .ex-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .2px;
+  }
+  .ex-sets { font-size: 12px; color: var(--purple); font-weight: 600; margin: 1px 0; }
+  .ex-note { font-size: 10px; color: var(--text-muted); margin-top: 2px; line-height: 1.4; }
+  .set-boxes { display: flex; gap: 4px; margin-top: 5px; flex-wrap: wrap; }
+  .set-box {
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px 6px;
+    color: var(--text-muted);
+  }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  th {
+    background: var(--gray-light);
+    padding: 5px 8px;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid var(--border);
+  }
+  td { padding: 5px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .good { color: var(--green); font-weight: 600; }
+  .strong { color: var(--blue); font-weight: 600; }
+  .elite { color: var(--purple); font-weight: 600; }
+
+  /* Info banner */
+  .banner {
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .banner.purple { background: var(--purple-light); color: var(--purple-dark); }
+  .banner.blue { background: var(--blue-light); color: var(--blue-dark); }
+  .banner.coral { background: var(--coral-light); color: var(--coral-dark); }
+  .banner.green { background: var(--green-light); color: var(--green-dark); }
+  .banner.amber { background: var(--amber-light); color: var(--amber-dark); }
+
+  /* Macro pill */
+  .macro-pill {
+    text-align: center;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 6px 8px;
+  }
+  .macro-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .5px; }
+  .macro-val {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  /* Day card for weekly overview */
+  .day-card {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 6px;
+    text-align: center;
+  }
+  .day-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+  }
+  .day-type-pill {
+    font-size: 9px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  .dt-hard { background: var(--coral-light); color: var(--coral-dark); }
+  .dt-easy { background: var(--blue-light); color: var(--blue-dark); }
+  .dt-rest { background: var(--gray-light); color: #555; }
+  .day-focus {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.3;
+    margin-bottom: 3px;
+  }
+  .day-items { font-size: 9px; color: var(--text-muted); line-height: 1.6; }
+  .day-time {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--purple);
+    margin-top: 4px;
+  }
+
+  /* Divider */
+  .divider { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+
+  /* Footer line */
+  .page-footer {
+    position: absolute;
+    bottom: 12mm;
+    left: 18mm; right: 18mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: #bbb;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    border-top: 1px solid var(--border);
+    padding-top: 5px;
+  }
+
+  .page-number { font-size: 10px; font-weight: 700; }
+
+  /* Mantra */
+  .mantra {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--purple);
+    text-align: center;
+    padding: 8px;
+    background: var(--purple-light);
+    border-radius: 5px;
+    margin-top: 8px;
+  }
+
+  /* Score line */
+  .score-line {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .score-line::after { content: ''; display: block; }
+
+  .write-line {
+    border-bottom: 1px solid #bbb;
+    min-height: 18px;
+    display: block;
+    margin-bottom: 6px;
+  }
+</style>
+<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#top-ad,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap__module,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style><style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#top-ad,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap__module,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style></head>
+<body>
+
+<div class="print-bar no-print">
+  <span>Brent's Calisthenics Athletic System — 10 pages, print-ready</span>
+  <button onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<!-- ============================================================ PAGE 1: WEEKLY OVERVIEW ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Brent's <span>Calisthenics</span> Athletic System</div>
+      <div class="page-subtitle">5'8" · 177 lb → 163–168 lb target · 23 yrs · Rim-toucher · 15–25 mi/wk base</div>
+    </div>
+    <div style="text-align:right;">
+      <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; color:#888;">Goals</div>
+      <div style="font-size:11px; color:var(--text-muted); line-height:1.6;">Sub-3hr Marathon<br>Near-Dunk Vertical<br>500 Push-ups</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Weekly Training Map</div>
+    <div class="section-body">
+      <div class="grid-7">
+        <div class="day-card">
+          <div class="day-name" style="color:var(--purple);">Mon</div>
+          <div class="day-type-pill dt-hard">🔴 Hard A</div>
+          <div class="day-focus">Strength + Power</div>
+          <div class="day-items">Jump training<br>Pull-ups · Dips<br>BSS · Nordics<br>Push-up block<br>Core</div>
+          <div class="day-time">70–85 min</div>
+        </div>
+        <div class="day-card">
+          <div class="day-name" style="color:var(--blue);">Tue</div>
+          <div class="day-type-pill dt-easy">🟢 Regular</div>
+          <div class="day-focus">Zone 2 + Mobility</div>
+          <div class="day-items">35–50 min run<br>Mobility block<br>Skill work<br>Lower-leg care</div>
+          <div class="day-time">55–75 min</div>
+        </div>
+        <div class="day-card">
+          <div class="day-name" style="color:var(--coral);">Wed</div>
+          <div class="day-type-pill dt-hard">🔴 Hard B</div>
+          <div class="day-focus">Speed + Density</div>
+          <div class="day-items">Hill sprints<br>Push-up ladder<br>Density circuit<br>Cooldown</div>
+          <div class="day-time">50–65 min</div>
+        </div>
+        <div class="day-card">
+          <div class="day-name" style="color:var(--blue);">Thu</div>
+          <div class="day-type-pill dt-easy">🟢 Regular</div>
+          <div class="day-focus">Tempo Run + Mobility</div>
+          <div class="day-items">25–35 min tempo<br>Mobility block<br>Skill work<br>Lower-leg care</div>
+          <div class="day-time">55–70 min</div>
+        </div>
+        <div class="day-card">
+          <div class="day-name" style="color:var(--purple);">Fri</div>
+          <div class="day-type-pill dt-hard">🔴 Hard A</div>
+          <div class="day-focus">Strength + Power</div>
+          <div class="day-items">Jump training<br>Pull-ups · Dips<br>BSS · Nordics<br>Push-up block<br>Core</div>
+          <div class="day-time">70–85 min</div>
+        </div>
+        <div class="day-card">
+          <div class="day-name" style="color:var(--blue);">Sat</div>
+          <div class="day-type-pill dt-easy">🟢 Regular</div>
+          <div class="day-focus">Long Run + Mobility</div>
+          <div class="day-items">13–16 mi long run<br>Extended mobility<br>Lower-leg care<br>Fuel practice</div>
+          <div class="day-time">90–120 min</div>
+        </div>
+        <div class="day-card" style="background:var(--gray-light);">
+          <div class="day-name" style="color:#888;">Sun</div>
+          <div class="day-type-pill dt-rest">Rest</div>
+          <div class="day-focus">Full Recovery</div>
+          <div class="day-items">Micro-routine<br>Nasal walk<br>Stretching only</div>
+          <div class="day-time" style="color:#888;">Optional</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-4" style="margin-bottom:12px;">
+    <div class="card purple"><div class="card-title">Weekly Miles</div><div class="card-value">30–40</div><div class="card-note">Building from 15–25</div></div>
+    <div class="card coral"><div class="card-title">Hard Days</div><div class="card-value">3 / wk</div><div class="card-note">Mon · Wed · Fri</div></div>
+    <div class="card blue"><div class="card-title">Jump Sessions</div><div class="card-value">2 / wk</div><div class="card-note">Mon + Fri</div></div>
+    <div class="card green"><div class="card-title">Push-up Blocks</div><div class="card-value">3 / wk</div><div class="card-note">Mon · Wed · Fri</div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Daily Micro-Routine — Do Every Single Day (8 min)</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 2 min</div>
+        <div class="check-item"><span class="box"></span>Dead hang — 45 sec</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Tibialis raises — 25 reps</div>
+        <div class="check-item"><span class="box"></span>Calf raises — 25 reps</div>
+        <div class="check-item"><span class="box"></span>Nasal breathing walk — 10 min</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Recovery Traffic Light</div>
+    <div class="section-body">
+      <div class="grid-3">
+        <div class="card green">
+          <div class="card-title">🟢 Green — Train Normally</div>
+          <div style="font-size:11px; color:var(--green-dark); margin-top:4px; line-height:1.6;">Joints feel good · Sleep decent · Warm-up smooth · Jump feels springy · No pain</div>
+        </div>
+        <div class="card amber">
+          <div class="card-title">🟡 Yellow — Modify</div>
+          <div style="font-size:11px; color:var(--amber-dark); margin-top:4px; line-height:1.6;">Knees achy · Achilles tight · Legs dead → Remove sprints · Reduce jumping · Use Zone 2</div>
+        </div>
+        <div class="card coral">
+          <div class="card-title">🔴 Red — Stop</div>
+          <div style="font-size:11px; color:var(--coral-dark); margin-top:4px; line-height:1.6;">Sharp pain · Limping · Achilles pain on jumps · Hamstring grabbing → Rest. Full stop.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mantra">Be springy · Be strong · Be lean · Be conditioned · Stay durable · Train hard — don't train stupid</div>
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">1 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 2: NUTRITION ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Nutrition <span>System</span></div>
+      <div class="page-subtitle">Fueling sub-3 marathon + dunking + 500 push-ups · Target body: 163–168 lb</div>
+    </div>
+    <div class="day-badge badge-easy">Eat Like an Athlete</div>
+  </div>
+
+  <div class="banner amber">Dropping from 177 → 163–168 lb is your biggest performance lever. Every 5 lb lost = ~30 sec/mile faster, 2–3 inches higher jump, more push-up reps. Don't rush it — lose no more than 1–1.5 lb/week.</div>
+
+  <div class="section">
+    <div class="section-header">Daily Macro Targets</div>
+    <div class="section-body">
+      <div class="grid-3" style="gap:10px;">
+        <div style="border:1.5px solid var(--purple); border-radius:6px; padding:10px;">
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:14px; font-weight:800; color:var(--purple-dark); text-transform:uppercase; margin-bottom:8px;">Hard Days (Mon/Wed/Fri)</div>
+          <div class="grid-2">
+            <div class="macro-pill"><div class="macro-label">Calories</div><div class="macro-val" style="color:var(--purple);">2,700</div></div>
+            <div class="macro-pill"><div class="macro-label">Protein</div><div class="macro-val" style="color:var(--purple);">190g</div></div>
+            <div class="macro-pill"><div class="macro-label">Carbs</div><div class="macro-val" style="color:var(--purple);">340g</div></div>
+            <div class="macro-pill"><div class="macro-label">Fat</div><div class="macro-val" style="color:var(--purple);">70g</div></div>
+          </div>
+        </div>
+        <div style="border:1.5px solid var(--blue); border-radius:6px; padding:10px;">
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:14px; font-weight:800; color:var(--blue-dark); text-transform:uppercase; margin-bottom:8px;">Zone 2 / Tempo Days (Tue/Thu)</div>
+          <div class="grid-2">
+            <div class="macro-pill"><div class="macro-label">Calories</div><div class="macro-val" style="color:var(--blue);">2,500</div></div>
+            <div class="macro-pill"><div class="macro-label">Protein</div><div class="macro-val" style="color:var(--blue);">185g</div></div>
+            <div class="macro-pill"><div class="macro-label">Carbs</div><div class="macro-val" style="color:var(--blue);">280g</div></div>
+            <div class="macro-pill"><div class="macro-label">Fat</div><div class="macro-val" style="color:var(--blue);">75g</div></div>
+          </div>
+        </div>
+        <div style="border:1.5px solid var(--green); border-radius:6px; padding:10px;">
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:14px; font-weight:800; color:var(--green-dark); text-transform:uppercase; margin-bottom:8px;">Long Run Day (Sat)</div>
+          <div class="grid-2">
+            <div class="macro-pill"><div class="macro-label">Calories</div><div class="macro-val" style="color:var(--green);">2,900</div></div>
+            <div class="macro-pill"><div class="macro-label">Protein</div><div class="macro-val" style="color:var(--green);">185g</div></div>
+            <div class="macro-pill"><div class="macro-label">Carbs</div><div class="macro-val" style="color:var(--green);">400g</div></div>
+            <div class="macro-pill"><div class="macro-label">Fat</div><div class="macro-val" style="color:var(--green);">72g</div></div>
+          </div>
+          <div style="font-size:10px; color:var(--green-dark); margin-top:5px; text-align:center;">Carb-load Friday night + Sat morning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Meal Structure</div>
+    <div class="section-body">
+      <div class="grid-2" style="gap:8px;">
+        <div class="exercise-block">
+          <div class="ex-name">Meal 1 — Breakfast</div>
+          <div class="ex-sets">45–55g protein · 70–90g carbs</div>
+          <div class="ex-note">4 eggs + egg whites + oats + banana + Greek yogurt. Or protein smoothie + oats.</div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Pre-Workout — 60–90 min before</div>
+          <div class="ex-sets">30–40g protein · 60–80g carbs · low fat</div>
+          <div class="ex-note">Rice cakes + honey + whey shake + banana. Toast + honey + Greek yogurt.</div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Post-Workout — within 30 min</div>
+          <div class="ex-sets">40–50g protein · 80–110g carbs</div>
+          <div class="ex-note">Whey + cereal or white rice + fruit. Chicken + rice. Fast-digesting carbs priority.</div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Meal 3 — Lunch</div>
+          <div class="ex-sets">50–60g protein · 80–100g carbs</div>
+          <div class="ex-note">Chicken + white rice + roasted veg + olive oil. Steak + potatoes + salad.</div>
+        </div>
+        <div class="exercise-block" style="grid-column: span 2;">
+          <div class="ex-name">Dinner</div>
+          <div class="ex-sets">45–55g protein · carbs based on day type</div>
+          <div class="ex-note">Salmon or lean beef + potatoes + salad + olive oil. Chicken pasta. Turkey tacos.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header green">Supplement Stack</div>
+    <div class="section-body">
+      <div class="grid-3">
+        <div class="card green"><div class="card-title">Creatine</div><div style="font-size:12px; color:var(--green-dark); margin-top:3px;">5g/day, every day. Non-negotiable for all 3 goals.</div></div>
+        <div class="card green"><div class="card-title">Whey Protein</div><div style="font-size:12px; color:var(--green-dark); margin-top:3px;">1–2 scoops/day to hit 185–190g protein target.</div></div>
+        <div class="card green"><div class="card-title">Caffeine</div><div style="font-size:12px; color:var(--green-dark); margin-top:3px;">150–200mg pre hard day only. Skip easy days.</div></div>
+        <div class="card"><div class="card-title">Electrolytes</div><div style="font-size:12px; color:var(--text-muted); margin-top:3px;">Every Zone 2 + long run day. Sweat is real in Florida.</div></div>
+        <div class="card"><div class="card-title">Vitamin D3 + K2</div><div style="font-size:12px; color:var(--text-muted); margin-top:3px;">2,000–4,000 IU daily. Joint + hormonal health.</div></div>
+        <div class="card"><div class="card-title">Fish Oil</div><div style="font-size:12px; color:var(--text-muted); margin-top:3px;">2–3g EPA/DHA. Reduces inflammation from high volume.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">2 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 3: MONDAY + FRIDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Monday <span>&amp;</span> Friday — Hard Day A</div>
+      <div class="page-subtitle">Strength + Power · Jump training · Push-up endurance block</div>
+    </div>
+    <div class="day-badge badge-hard">🔴 Hard Day · 70–85 min</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header purple">Warm-Up — 10 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 45–60 sec</div>
+        <div class="check-item"><span class="box"></span>World's greatest stretch — 5/side</div>
+        <div class="check-item"><span class="box"></span>Wrist rocks — 20 reps</div>
+        <div class="check-item"><span class="box"></span>Scapular push-ups — 15 reps</div>
+        <div class="check-item"><span class="box"></span>Glute bridges — 15 reps</div>
+        <div class="check-item"><span class="box"></span>Tibialis raises — 20 reps</div>
+        <div class="check-item"><span class="box"></span>Leg swings front/back — 15/leg</div>
+        <div class="check-item"><span class="box"></span>Light pogos — 25 sec</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header purple">Jump / Dunk Transfer Block — 15 min <span>You can touch rim → now train the approach</span></div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block">
+          <div class="ex-name">Pogo Jumps</div>
+          <div class="ex-sets">3 × 30 sec</div>
+          <div class="ex-note">Stay tall · ankles only · quick contact · Achilles spring</div>
+          <div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Max Vertical Jumps</div>
+          <div class="ex-sets">6 × 1 rep · full reset</div>
+          <div class="ex-note">Full reset between reps. Max effort. Try to touch something every rep.</div>
+          <div class="set-boxes"><span class="set-box">1</span><span class="set-box">2</span><span class="set-box">3</span><span class="set-box">4</span><span class="set-box">5</span><span class="set-box">6</span></div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Approach Jump Practice</div>
+          <div class="ex-sets">6 × 1 rep</div>
+          <div class="ex-note">2–3 step run-up. Penultimate step plant. Explode and reach. Dunk-specific.</div>
+          <div class="set-boxes"><span class="set-box">1</span><span class="set-box">2</span><span class="set-box">3</span><span class="set-box">4</span><span class="set-box">5</span><span class="set-box">6</span></div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">Snap-Down to Jump</div>
+          <div class="ex-sets">3 × 3 reps</div>
+          <div class="ex-note">Start tall. Drop fast into athletic position. Immediately jump upward.</div>
+          <div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div>
+        </div>
+      </div>
+      <div class="banner purple" style="margin-top:8px; margin-bottom:0;">Stop if power drops. 12 great jumps beat 40 lazy ones. Every rep is max effort.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Upper-Body Strength — 15 min</div>
+    <div class="section-body">
+      <div class="grid-2">
+        <div class="exercise-block">
+          <div class="ex-name">A1. Pull-Ups / Weighted Pull-Ups</div>
+          <div class="ex-sets">5 × 5–8 reps · 60–90 sec rest</div>
+          <div class="ex-note">Chest up · controlled lower · leave 1–2 in tank · add weight if 8 feels easy</div>
+          <div class="set-boxes"><span class="set-box">Set 1 ___</span><span class="set-box">Set 2 ___</span><span class="set-box">Set 3 ___</span><span class="set-box">Set 4 ___</span><span class="set-box">Set 5 ___</span></div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">A2. Dips / Pseudo-Planche Push-Ups</div>
+          <div class="ex-sets">4 × 10–15 reps · 90 sec rest</div>
+          <div class="ex-note">No shoulder pain · controlled bottom · explosive clean press</div>
+          <div class="set-boxes"><span class="set-box">Set 1 ___</span><span class="set-box">Set 2 ___</span><span class="set-box">Set 3 ___</span><span class="set-box">Set 4 ___</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Lower-Body Strength — 12 min</div>
+    <div class="section-body">
+      <div class="grid-2">
+        <div class="exercise-block">
+          <div class="ex-name">B1. Bulgarian Split Squats</div>
+          <div class="ex-sets">4 × 8–12/leg · 60–90 sec rest</div>
+          <div class="ex-note">Slow tempo · pause at bottom · drive up hard · knee tracks toes</div>
+          <div class="set-boxes"><span class="set-box">Set 1 ___</span><span class="set-box">Set 2 ___</span><span class="set-box">Set 3 ___</span><span class="set-box">Set 4 ___</span></div>
+        </div>
+        <div class="exercise-block">
+          <div class="ex-name">B2. Nordic Hamstring Negatives</div>
+          <div class="ex-sets">3 × 5–8 reps · slow lower</div>
+          <div class="ex-note">Sprint + dunk protection. Lower as slowly as possible. Use arms to push back up.</div>
+          <div class="set-boxes"><span class="set-box">Set 1 ___</span><span class="set-box">Set 2 ___</span><span class="set-box">Set 3 ___</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header coral">Push-Up Endurance Block — 10 min <span>500 push-up builder</span></div>
+    <div class="section-body">
+      <div class="grid-3" style="margin-bottom:8px;">
+        <div class="card coral"><div class="card-title">Month 1–2 Target</div><div style="font-size:12px; color:var(--coral-dark); margin-top:3px;">100–150 reps total. Sets of 20–30. Rest in plank.</div></div>
+        <div class="card coral"><div class="card-title">Month 3–4 Target</div><div style="font-size:12px; color:var(--coral-dark); margin-top:3px;">200–300 reps total. Sets of 35–50. Rest in plank.</div></div>
+        <div class="card coral"><div class="card-title">Month 5–6 Target</div><div style="font-size:12px; color:var(--coral-dark); margin-top:3px;">400–500+ reps total. Sets of 60–80. Rest in plank.</div></div>
+      </div>
+      <div class="banner coral" style="margin-bottom:0;">Rest in plank position only. Never drop to knees — if you do, the set ends. Total reps today: _______</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Core + Lower-Leg Durability — 10 min</div>
+    <div class="section-body">
+      <div class="grid-3" style="margin-bottom:6px;">
+        <div class="exercise-block"><div class="ex-name">Single-Leg Calf Raises</div><div class="ex-sets">3 × 15–20/leg</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Tibialis Raises</div><div class="ex-sets">3 × 25–30 reps</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Hollow Body Hold</div><div class="ex-sets">3 × 40 sec</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+      </div>
+      <div class="grid-2">
+        <div class="exercise-block"><div class="ex-name">Side Plank</div><div class="ex-sets">3 × 35 sec/side</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Hanging Knee / Leg Raises</div><div class="ex-sets">3 × 12–15 reps</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Cooldown — 5–8 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Couch stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Hamstring stretch — 45 sec/side</div>
+        <div class="check-item"><span class="box"></span>Calf stretch — 45 sec/side</div>
+        <div class="check-item"><span class="box"></span>Lat stretch — 45 sec/side</div>
+        <div class="check-item"><span class="box"></span>Deep squat breathing — 60 sec</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">3 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 4: TUESDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Tuesday — <span>Zone 2 + Mobility</span></div>
+      <div class="page-subtitle">Aerobic base building · Recovery · Pliability · Lower-leg care</div>
+    </div>
+    <div class="day-badge badge-easy">🟢 Regular Day · 55–75 min</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header blue">Zone 2 Run — 35–50 min</div>
+    <div class="section-body">
+      <div class="grid-3" style="margin-bottom:8px;">
+        <div class="card blue"><div class="card-title">Pace Target</div><div style="font-size:12px; color:var(--blue-dark); margin-top:3px;">Conversational — can say full sentences. Likely 8:30–9:30/mile right now.</div></div>
+        <div class="card blue"><div class="card-title">Heart Rate</div><div class="card-value">130–145</div><div class="card-note">bpm · stay under 145</div></div>
+        <div class="card blue"><div class="card-title">Feel Test</div><div style="font-size:12px; color:var(--blue-dark); margin-top:3px;">If you're gasping, you're going too hard. Slow down. This is base building.</div></div>
+      </div>
+      <div class="banner blue" style="margin-bottom:0;">Alternatives: incline walk 45–75 min · bike 45–75 min · row 30–45 min · swim 30–45 min</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Mobility Block — 15 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 3 min total</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 2 min/side</div>
+        <div class="check-item"><span class="box"></span>Hamstring fold — 2 min total</div>
+        <div class="check-item"><span class="box"></span>Pancake stretch — 2 min total</div>
+        <div class="check-item"><span class="box"></span>Thoracic rotations — 10/side</div>
+        <div class="check-item"><span class="box"></span>Lat stretch — 1 min/side</div>
+        <div class="check-item"><span class="box"></span>Wrist extension stretch — 1 min</div>
+        <div class="check-item"><span class="box"></span>Calf stretch — 1 min/side</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Skill Block — choose 2–3 (10 min)</div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block"><div class="ex-name">Handstand Wall Hold</div><div class="ex-sets">5 × 20–45 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">Dead Hang</div><div class="ex-sets">3 × 45 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">Hollow Body Hold</div><div class="ex-sets">3 × 35 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">L-Sit Tuck Hold</div><div class="ex-sets">5 × 10–20 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">Scapular Pull-Ups</div><div class="ex-sets">3 × 10 reps</div></div>
+        <div class="exercise-block"><div class="ex-name">Cossack Squat</div><div class="ex-sets">3 × 8/side</div></div>
+        <div class="exercise-block"><div class="ex-name">Bear Crawl</div><div class="ex-sets">5 min total</div></div>
+        <div class="exercise-block"><div class="ex-name">Crab Walk</div><div class="ex-sets">3 × 20 yards</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Lower-Leg Maintenance</div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block"><div class="ex-name">Tibialis Raises</div><div class="ex-sets">3 × 25–30</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Calf Raises</div><div class="ex-sets">3 × 20</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Foot Doming</div><div class="ex-sets">2 × 15/foot</div></div>
+        <div class="exercise-block"><div class="ex-name">Ankle Circles</div><div class="ex-sets">2 × 10/direction</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">4 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 5: WEDNESDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Wednesday — <span>Speed + Density</span></div>
+      <div class="page-subtitle">Hill sprints · Push-up ladder · Density circuit · Hard Day B</div>
+    </div>
+    <div class="day-badge badge-hard">🔴 Hard Day B · 50–65 min</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header coral">Sprint Warm-Up — 10–12 min <span>Do NOT sprint cold</span></div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Light jog — 5 min</div>
+        <div class="check-item"><span class="box"></span>Leg swings — 15/leg</div>
+        <div class="check-item"><span class="box"></span>Walking lunges — 10/leg</div>
+        <div class="check-item"><span class="box"></span>Pogos — 3 × 20 sec</div>
+        <div class="check-item"><span class="box"></span>A-skips — 2 × 20 yards</div>
+        <div class="check-item"><span class="box"></span>High knees — 2 × 20 yards</div>
+        <div class="check-item"><span class="box"></span>Build-up runs — 3 × 40 yards</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header coral">Hill Sprints — Primary Block</div>
+    <div class="section-body">
+      <div class="grid-2" style="margin-bottom:8px;">
+        <div class="card coral">
+          <div class="card-title">Protocol</div>
+          <div style="font-size:12px; color:var(--coral-dark); margin-top:3px; line-height:1.6;">8 rounds · 8–12 sec full effort uphill · walk back = full rest · ~3–4 min between reps total</div>
+        </div>
+        <div class="card coral">
+          <div class="card-title">Why Hill Sprints</div>
+          <div style="font-size:11px; color:var(--coral-dark); margin-top:3px; line-height:1.6;">Forces glute drive → dunk power · Reduces hamstring injury risk · Builds sub-3 race-day kick · Brutal conditioning with less wear</div>
+        </div>
+      </div>
+      <div style="display:flex; gap:6px; flex-wrap:wrap;">
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 1</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 2</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 3</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 4</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 5</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 6</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 7</span>
+        <span class="set-box" style="font-size:11px; padding:4px 10px;">Sprint 8</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header coral">Push-Up Ladder — 500 Push-Up Training</div>
+    <div class="section-body">
+      <div class="grid-5" style="margin-bottom:6px;">
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Set 1</div><div class="ex-sets">10 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Set 2</div><div class="ex-sets">15 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Set 3</div><div class="ex-sets">20 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Set 4</div><div class="ex-sets">15 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Set 5</div><div class="ex-sets">10 reps</div></div>
+      </div>
+      <div class="banner coral" style="margin-bottom:0;">60 sec rest between sets. As you get stronger, scale up: 15/20/30/20/15 → 20/25/40/25/20. Total today: _______</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Density Circuit — 18 min · as many clean rounds as possible</div>
+    <div class="section-body">
+      <div class="grid-5" style="margin-bottom:8px;">
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Pull-Ups</div><div class="ex-sets">5 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Deficit Push-Ups</div><div class="ex-sets">12 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Walking Lunges</div><div class="ex-sets">10/leg</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Hanging Knee Raises</div><div class="ex-sets">10 reps</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Burpees</div><div class="ex-sets">5 reps</div></div>
+      </div>
+      <div style="font-size:12px; color:var(--text-muted);">Rounds completed: _______ &nbsp;|&nbsp; Goal: improve by 1 round every 2 weeks</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Cooldown — 8 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Walk 5 min</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Hamstring stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Calf stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Deep squat breathing — 90 sec</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">5 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 6: THURSDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Thursday — <span>Tempo Run + Mobility</span></div>
+      <div class="page-subtitle">Sub-3 marathon specific · Lactate threshold training · Pliability</div>
+    </div>
+    <div class="day-badge badge-easy">🟢 Regular Day · 55–70 min</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header purple">Tempo Run — 25–35 min <span>The session that takes you to sub-3</span></div>
+    <div class="section-body">
+      <div class="grid-3" style="margin-bottom:8px;">
+        <div class="card purple">
+          <div class="card-title">Structure</div>
+          <div style="font-size:12px; color:var(--purple-dark); margin-top:3px; line-height:1.6;">10 min easy warm-up → 15–20 min at tempo pace → 5 min easy cool-down</div>
+        </div>
+        <div class="card purple">
+          <div class="card-title">Pace Target</div>
+          <div class="card-value">6:30–7:00</div>
+          <div class="card-note">/mile · comfortably hard</div>
+        </div>
+        <div class="card purple">
+          <div class="card-title">Feel Test</div>
+          <div style="font-size:12px; color:var(--purple-dark); margin-top:3px; line-height:1.6;">7–8/10 effort. Can say 2–3 words. Hard but sustainable. If dying, slow 10–15 sec/mile.</div>
+        </div>
+      </div>
+      <div class="banner purple" style="margin-bottom:0;">Build tempo block: 15 min → 20 min → 25 min → 30 min over 6–8 weeks. Don't rush progression.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Mobility Block — 15 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 3 min total</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 2 min/side</div>
+        <div class="check-item"><span class="box"></span>Hamstring fold — 2 min total</div>
+        <div class="check-item"><span class="box"></span>Pancake stretch — 2 min total</div>
+        <div class="check-item"><span class="box"></span>Thoracic rotations — 10/side</div>
+        <div class="check-item"><span class="box"></span>90/90 hip switches — 10/side</div>
+        <div class="check-item"><span class="box"></span>Calf stretch — 1 min/side</div>
+        <div class="check-item"><span class="box"></span>Jefferson curl light — 5 slow reps</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Lower-Leg Maintenance</div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block"><div class="ex-name">Tibialis Raises</div><div class="ex-sets">3 × 25–30</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Single-Leg Calf Raises</div><div class="ex-sets">3 × 15/leg</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Foot Doming</div><div class="ex-sets">2 × 15/foot</div></div>
+        <div class="exercise-block"><div class="ex-name">Ankle Circles</div><div class="ex-sets">2 × 10/direction</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Skill Block — choose 2 (10 min)</div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block"><div class="ex-name">Dead Hang</div><div class="ex-sets">3 × 45 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">Hollow Body Hold</div><div class="ex-sets">3 × 35 sec</div></div>
+        <div class="exercise-block"><div class="ex-name">Scapular Pull-Ups</div><div class="ex-sets">3 × 10 reps</div></div>
+        <div class="exercise-block"><div class="ex-name">Cossack Squat</div><div class="ex-sets">3 × 8/side</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">6 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 7: SATURDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Saturday — <span>Long Run + Mobility</span></div>
+      <div class="page-subtitle">The most important session of the week · Marathon engine day · Fuel practice</div>
+    </div>
+    <div class="day-badge badge-easy">🟢 Regular Day · 90–120 min</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header blue">Long Run — Priority Block</div>
+    <div class="section-body">
+      <div class="grid-3" style="margin-bottom:8px;">
+        <div class="card blue">
+          <div class="card-title">Distance</div>
+          <div class="card-value">13–16 mi</div>
+          <div class="card-note">Build from current base. Start at 12 mi.</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">Pace</div>
+          <div class="card-value">9–10</div>
+          <div class="card-note">/mile · easy · do NOT race this</div>
+        </div>
+        <div class="card blue">
+          <div class="card-title">Fueling</div>
+          <div style="font-size:12px; color:var(--blue-dark); margin-top:3px; line-height:1.6;">Gel or dates every 45 min. Sip water throughout. Electrolytes if sweating heavily. Practice race-day fueling now.</div>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Weeks 1–4</div><div class="ex-sets">12–13 miles</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Weeks 5–8</div><div class="ex-sets">13–15 miles</div></div>
+        <div class="exercise-block" style="text-align:center;"><div class="ex-name">Weeks 9–12</div><div class="ex-sets">15–17 miles</div></div>
+        <div class="exercise-block" style="text-align:center; background:var(--amber-light);"><div class="ex-name" style="color:var(--amber-dark);">Every 4th Week</div><div class="ex-sets" style="color:var(--amber);">Deload 8–9 mi</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Extended Mobility — 20 min</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 3 min</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 2 min/side</div>
+        <div class="check-item"><span class="box"></span>Hamstring fold — 2 min</div>
+        <div class="check-item"><span class="box"></span>Pancake stretch — 2–3 min</div>
+        <div class="check-item"><span class="box"></span>Thoracic rotations — 10/side</div>
+        <div class="check-item"><span class="box"></span>90/90 hip switches — 10/side</div>
+        <div class="check-item"><span class="box"></span>Calf stretch — 2 min/side</div>
+        <div class="check-item"><span class="box"></span>Jefferson curl light — 5 slow reps</div>
+        <div class="check-item"><span class="box"></span>Lat stretch — 1–2 min/side</div>
+        <div class="check-item"><span class="box"></span>Wrist rocks — 1 min</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Post-Run Lower-Leg Care</div>
+    <div class="section-body">
+      <div class="grid-4">
+        <div class="exercise-block"><div class="ex-name">Tibialis Raises</div><div class="ex-sets">3 × 25–30</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Single-Leg Calf Raises</div><div class="ex-sets">3 × 15/leg</div><div class="set-boxes"><span class="set-box">Set 1</span><span class="set-box">Set 2</span><span class="set-box">Set 3</span></div></div>
+        <div class="exercise-block"><div class="ex-name">Foot Doming</div><div class="ex-sets">2 × 15/foot</div></div>
+        <div class="exercise-block"><div class="ex-name">Ankle Circles</div><div class="ex-sets">2 × 10/direction</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">7 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 8: SUNDAY ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Sunday — <span>Rest &amp; Recovery</span></div>
+      <div class="page-subtitle">You adapt during rest, not during training · Let the week absorb · Come back dangerous</div>
+    </div>
+    <div class="day-badge badge-rest">Rest Day</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Daily Micro-Routine — 8 min max</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Deep squat hold — 2 min</div>
+        <div class="check-item"><span class="box"></span>Dead hang — 45 sec</div>
+        <div class="check-item"><span class="box"></span>Couch stretch — 60 sec/side</div>
+        <div class="check-item"><span class="box"></span>Tibialis raises — 25 reps</div>
+        <div class="check-item"><span class="box"></span>Calf raises — 25 reps</div>
+        <div class="check-item"><span class="box"></span>Nasal breathing walk — 10 min</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Sunday Priorities</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Sleep 8–9 hours Saturday night</div>
+        <div class="check-item"><span class="box"></span>Eat at maintenance or slight surplus</div>
+        <div class="check-item"><span class="box"></span>Stay off feet as much as possible</div>
+        <div class="check-item"><span class="box"></span>Hydrate + electrolytes</div>
+        <div class="check-item"><span class="box"></span>Review next week's training plan</div>
+        <div class="check-item"><span class="box"></span>Fill out weekly scorecard below</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header purple">Weekly Scorecard — Fill This Out Every Sunday</div>
+    <div class="section-body">
+      <div class="grid-2" style="margin-bottom:10px;">
+        <div>
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; text-transform:uppercase; margin-bottom:6px;">Training Completed</div>
+          <ul class="checklist">
+            <li><span class="box"></span>Monday — Strength + Power (Hard Day A)</li>
+            <li><span class="box"></span>Tuesday — Zone 2 + Mobility</li>
+            <li><span class="box"></span>Wednesday — Speed + Density (Hard Day B)</li>
+            <li><span class="box"></span>Thursday — Tempo Run + Mobility</li>
+            <li><span class="box"></span>Friday — Strength + Power (Hard Day A)</li>
+            <li><span class="box"></span>Saturday — Long Run + Mobility</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; text-transform:uppercase; margin-bottom:6px;">Performance Numbers</div>
+          <div style="font-size:12px; color:var(--text-muted); line-height:2;">
+            Body weight: _____ lb<br>
+            Best pull-up set: _____ reps<br>
+            Push-up block total: _____ reps<br>
+            Long run: _____ mi @ _____/mile<br>
+            Tempo pace: _____/mile<br>
+            Jump felt: ☐ Springy &nbsp; ☐ Flat &nbsp; ☐ Improving
+          </div>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="card purple"><div class="card-title">Dunk Progress</div><div style="font-size:12px; color:var(--purple-dark); margin-top:3px;">☐ Touch rim &nbsp; ☐ Backboard &nbsp; ☐ Dunk</div></div>
+        <div class="card coral"><div class="card-title">Push-Up Session PR</div><div class="card-value" style="font-size:16px;">_____ reps</div></div>
+        <div class="card blue"><div class="card-title">Tempo Run PR</div><div class="card-value" style="font-size:16px;">_____/mi</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mantra">Be springy · Be strong · Be lean · Be conditioned · Stay durable</div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">8 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 9: BENCHMARKS + PROGRESSION ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Benchmarks <span>&amp;</span> Progression</div>
+      <div class="page-subtitle">Track performance, not just weight · Progress in order · Never skip levels</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Bodyweight Strength Benchmarks</div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>Movement</th><th class="good">Good</th><th class="strong">Strong</th><th class="elite">Elite</th></tr></thead>
+        <tbody>
+          <tr><td>Strict pull-ups</td><td class="good">10</td><td class="strong">15–20</td><td class="elite">25+</td></tr>
+          <tr><td>Chin-ups</td><td class="good">12</td><td class="strong">18–25</td><td class="elite">30+</td></tr>
+          <tr><td>Dips</td><td class="good">20</td><td class="strong">30–40</td><td class="elite">50+</td></tr>
+          <tr><td>Push-ups (single session)</td><td class="good">100–150</td><td class="strong">300+</td><td class="elite">500+</td></tr>
+          <tr><td>Pistol squats</td><td class="good">3/leg</td><td class="strong">8–10/leg</td><td class="elite">15+/leg</td></tr>
+          <tr><td>Hanging leg raises</td><td class="good">10</td><td class="strong">15–20</td><td class="elite">25+</td></tr>
+          <tr><td>Wall handstand hold</td><td class="good">30 sec</td><td class="strong">60 sec</td><td class="elite">90+ sec</td></tr>
+          <tr><td>Vertical jump</td><td class="good">24–28 in</td><td class="strong">30+ in (dunk range)</td><td class="elite">36+ in</td></tr>
+          <tr><td>Broad jump</td><td class="good">7.5–8.5 ft</td><td class="strong">8.5–9.5+ ft</td><td class="elite">10+ ft</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-bottom:12px; gap:10px;">
+    <div class="section" style="margin-bottom:0;">
+      <div class="section-header blue">Cardio Benchmarks</div>
+      <div class="section-body">
+        <table>
+          <thead><tr><th>Test</th><th class="good">Good</th><th class="strong">Strong</th></tr></thead>
+          <tbody>
+            <tr><td>1 mile</td><td class="good">sub 7:00</td><td class="strong">sub 6:30</td></tr>
+            <tr><td>5K</td><td class="good">sub 24:00</td><td class="strong">sub 22:00</td></tr>
+            <tr><td>Half marathon</td><td class="good">sub 1:35</td><td class="strong">sub 1:28</td></tr>
+            <tr><td>Marathon</td><td class="good">sub 3:30</td><td class="strong">sub 3:00 ← YOUR GOAL</td></tr>
+            <tr><td>Zone 2 run</td><td class="good">45 min</td><td class="strong">60+ min</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="section" style="margin-bottom:0;">
+      <div class="section-header purple">Strength Progression Order</div>
+      <div class="section-body">
+        <ul class="checklist">
+          <li><span style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-weight:800; min-width:20px;">1</span>Cleaner reps — form first, always</li>
+          <li><span style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-weight:800; min-width:20px;">2</span>More reps per set</li>
+          <li><span style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-weight:800; min-width:20px;">3</span>More sets</li>
+          <li><span style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-weight:800; min-width:20px;">4</span>Harder variation</li>
+          <li><span style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-weight:800; min-width:20px;">5</span>Added load (weight vest / belt)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">6-Month Goal Timeline</div>
+    <div class="section-body">
+      <div class="grid-3">
+        <div>
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; color:var(--purple); text-transform:uppercase; margin-bottom:6px;">Dunking</div>
+          <table>
+            <thead><tr><th>Phase</th><th>Checkpoint</th></tr></thead>
+            <tbody>
+              <tr><td>Month 1–2</td><td>Consistently touching rim · approach locked in · vertical +2–3 in</td></tr>
+              <tr><td>Month 3–4</td><td>Grazing/slapping backboard · down to ~168 lb</td></tr>
+              <tr><td>Month 5–6</td><td>First dunk attempt zone · 163–165 lb · vertical 28–32 in</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; color:var(--coral); text-transform:uppercase; margin-bottom:6px;">500 Push-Ups</div>
+          <table>
+            <thead><tr><th>Phase</th><th>Checkpoint</th></tr></thead>
+            <tbody>
+              <tr><td>Month 1–2</td><td>100–150 reps/session · sets of 20–30</td></tr>
+              <tr><td>Month 3–4</td><td>200–300 reps/session · sets of 35–50</td></tr>
+              <tr><td>Month 5–6</td><td>400–500+ reps/session · sets of 60–80</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; color:var(--blue); text-transform:uppercase; margin-bottom:6px;">Sub-3 Marathon</div>
+          <table>
+            <thead><tr><th>Phase</th><th>Checkpoint</th></tr></thead>
+            <tbody>
+              <tr><td>Month 1–2</td><td>35 mi/wk · tempo at 6:45–7:00/mi · 5K sub-22:00</td></tr>
+              <tr><td>Month 3–4</td><td>40 mi/wk · tempo at 6:30/mi · half sub-1:28</td></tr>
+              <tr><td>Month 5–6</td><td>Race-ready · 6:50/mi sustained · sub-3 viable</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">9 / 10</span></div>
+</div>
+
+<!-- ============================================================ PAGE 10: DAILY SCORECARD ============================================================ -->
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Daily <span>Scorecard</span></div>
+      <div class="page-subtitle">Print multiple copies · Fill out every single day · Be honest</div>
+    </div>
+  </div>
+
+  <div class="grid-4" style="margin-bottom:10px;">
+    <div style="border:1px solid var(--border); border-radius:5px; padding:8px 10px;">
+      <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px;">Date</div>
+      <div class="write-line"></div>
+    </div>
+    <div style="border:1px solid var(--border); border-radius:5px; padding:8px 10px;">
+      <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px;">Day Type</div>
+      <div style="font-size:11px; color:var(--text-muted);">☐ Hard A &nbsp; ☐ Hard B &nbsp; ☐ Zone 2 &nbsp; ☐ Tempo &nbsp; ☐ Rest</div>
+    </div>
+    <div style="border:1px solid var(--border); border-radius:5px; padding:8px 10px;">
+      <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px;">Body Weight</div>
+      <div class="write-line"></div>
+    </div>
+    <div style="border:1px solid var(--border); border-radius:5px; padding:8px 10px;">
+      <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px;">Calories Today</div>
+      <div class="write-line"></div>
+    </div>
+  </div>
+
+  <div class="grid-2" style="gap:10px; margin-bottom:10px;">
+    <div class="section" style="margin-bottom:0;">
+      <div class="section-header blue">Body Status</div>
+      <div class="section-body">
+        <ul class="checklist">
+          <li><span class="box"></span>Slept 7–9 hours?</li>
+          <li><span class="box"></span>Joints feel good?</li>
+          <li><span class="box"></span>Energy is solid?</li>
+          <li><span class="box"></span>No sharp pain anywhere?</li>
+          <li><span class="box"></span>Hydrated?</li>
+          <li><span class="box"></span>Warm-up felt smooth?</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section" style="margin-bottom:0;">
+      <div class="section-header green">Nutrition Completed</div>
+      <div class="section-body">
+        <ul class="checklist">
+          <li><span class="box"></span>Protein 185–190g hit?</li>
+          <li><span class="box"></span>Pre-workout meal done?</li>
+          <li><span class="box"></span>Post-workout meal done?</li>
+          <li><span class="box"></span>Carbs timed to training?</li>
+          <li><span class="box"></span>Creatine 5g taken?</li>
+          <li><span class="box"></span>Water + electrolytes?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header purple">Training Completed</div>
+    <div class="section-body">
+      <div class="check-grid">
+        <div class="check-item"><span class="box"></span>Warm-up done</div>
+        <div class="check-item"><span class="box"></span>Jump / power block</div>
+        <div class="check-item"><span class="box"></span>Strength block</div>
+        <div class="check-item"><span class="box"></span>Push-up volume block</div>
+        <div class="check-item"><span class="box"></span>Core + durability</div>
+        <div class="check-item"><span class="box"></span>Run (type: ____________)</div>
+        <div class="check-item"><span class="box"></span>Mobility / cooldown</div>
+        <div class="check-item"><span class="box"></span>Lower-leg maintenance</div>
+        <div class="check-item"><span class="box"></span>Daily micro-routine</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Performance Log</div>
+    <div class="section-body">
+      <div class="grid-2">
+        <div>
+          <div style="font-size:12px; color:var(--text-muted); line-height:2.2;">
+            Workout quality (1–10): _____<br>
+            Energy level (1–10): _____<br>
+            Soreness (1–10): _____<br>
+            Jump felt springy? &nbsp;☐ Yes &nbsp; ☐ No<br>
+            Push-up total today: _____ reps
+          </div>
+        </div>
+        <div>
+          <div style="font-size:12px; color:var(--text-muted); line-height:2.2;">
+            Run: _____ mi @ _____/mile<br>
+            Pull-up max set: _____ reps<br>
+            Any pain?: _____________________<br>
+            Best thing today: _______________<br>
+            Improve tomorrow: ______________
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-3" style="margin-bottom:10px;">
+    <div class="card purple"><div class="card-title">Dunk Progress</div><div style="font-size:11px; color:var(--purple-dark); margin-top:3px;">☐ Touch rim &nbsp; ☐ Backboard &nbsp; ☐ Dunk</div></div>
+    <div class="card coral"><div class="card-title">Push-Up Session PR</div><div class="card-value" style="font-size:16px;">_____ reps</div></div>
+    <div class="card blue"><div class="card-title">Tempo / Race Pace PR</div><div class="card-value" style="font-size:16px;">_____/mi</div></div>
+  </div>
+
+  <div style="border:1px solid var(--border); border-radius:6px; padding:10px 12px; margin-bottom:10px;">
+    <div style="font-family:&#39;Barlow Condensed&#39;,sans-serif; font-size:13px; font-weight:700; text-transform:uppercase; margin-bottom:6px;">Notes</div>
+    <div class="write-line"></div>
+    <div class="write-line"></div>
+    <div class="write-line"></div>
+  </div>
+
+  <div class="mantra">Be springy · Be strong · Be lean · Be conditioned · Stay durable · Train hard — don't train stupid</div>
+
+  <div class="page-footer"><span>Brent's Calisthenics Athletic System</span><span class="page-number">10 / 10</span></div>
+</div>
+
+
+
+</body></html>
